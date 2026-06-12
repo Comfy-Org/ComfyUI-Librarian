@@ -6,7 +6,8 @@ ComfyUI loads them.
 Use this if you have your model library on a big slow drive but have a smaller
 faster drive available to keep recently used models.
 
-Use for spinning HDD, external drive and network storage.
+Use for spinning HDD, external drive or network storage paired with a local
+NVME or fast SSD.
 
 Models will remain cached on the fast disk until the cache storage is
 exhausted. Models remain cached even through a comfyUI restart.
