@@ -9,7 +9,7 @@ faster drive available to keep recently used models.
 Use for spinning HDD, external drive or network storage paired with a local
 NVME or fast SSD.
 
-Models will remain cached on the fast disk until the cache storage is
+Used Mmodels will remain cached on the fast disk until the cache storage is
 exhausted. Models remain cached even through a comfyUI restart.
 
 ## Installation
