@@ -1,31 +1,57 @@
-#comfy-librarian-bar {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 9999;
+.comfy-librarian-dialog .comfy-modal-content {
+    max-width: 620px;
+}
+
+.comfy-librarian-config {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 520px;
+    color: var(--input-text, #ddd);
+}
+
+.comfy-librarian-config h2 {
+    margin: 0 0 4px;
+}
+
+.comfy-librarian-config .lib-instructions {
+    margin: 0;
+    opacity: .85;
+    line-height: 1.35;
+    white-space: normal;
+}
+
+.comfy-librarian-config label {
     display: flex;
     gap: 8px;
     align-items: center;
-    padding: 5px 10px;
-    border: 1px solid var(--border-color, #555);
-    border-top: 0;
-    border-radius: 0 0 8px 8px;
-    background: var(--comfy-menu-bg, #202020);
-    color: var(--input-text, #ddd);
-    font: 12px sans-serif;
-    box-shadow: 0 2px 8px #0008;
 }
 
-#comfy-librarian-bar input,
-#comfy-librarian-bar button {
-    height: 22px;
-    color: inherit;
+.comfy-librarian-config .lib-quota {
+    width: 90px;
+}
+
+.comfy-librarian-config .lib-path-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.comfy-librarian-config .lib-path {
+    flex: 1;
+    min-height: 22px;
+    padding: 5px 8px;
     border: 1px solid var(--border-color, #555);
     border-radius: 4px;
     background: var(--comfy-input-bg, #111);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
-#comfy-librarian-bar .lib-dir { width: 300px; }
-#comfy-librarian-bar .lib-quota { width: 70px; }
-#comfy-librarian-bar .lib-status { opacity: .75; max-width: 420px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.comfy-librarian-config .lib-status {
+    opacity: .75;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
