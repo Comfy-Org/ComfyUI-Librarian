@@ -4,7 +4,7 @@ ComfyUI-Librarian is a ComfyUI extension that caches model files when
 ComfyUI loads them.
 
 Use this if you have your model library on a big slow drive but have a smaller
-faster drive available to temporarily keep models.
+faster drive available to keep recently used models.
 
 Use for spinning HDD, external drive and network storage.
 
