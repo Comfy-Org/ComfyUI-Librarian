@@ -12,6 +12,8 @@ NVME or fast SSD.
 Used models will remain cached on the fast disk until the cache storage is
 exhausted. Models remain cached even through a comfyUI restart.
 
+https://github.com/user-attachments/assets/79adbca6-aff3-4328-886c-5eca05850e4e
+
 ## Installation
 
 Clone into you `custom_nodes` folder:
