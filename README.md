@@ -1,6 +1,6 @@
 # ComfyUI-Librarian
 
-ComfyUI-Librarian is a ComfyUI custom node pack that caches model files when
+ComfyUI-Librarian is a ComfyUI extension that caches model files when
 ComfyUI loads them.
 
 Use this if you have your model library on a big slow drive but have a smaller
