@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/79adbca6-aff3-4328-886c-5eca05850e4e
 Clone into you `custom_nodes` folder:
 
 ```
-git clone https://github.com/rattus128/ComfyUI-Librarian ComfyUI/custom_nodes/ComfyUI-Librarian
+git clone https://github.com/Comfy-Org/ComfyUI-Librarian ComfyUI/custom_nodes/ComfyUI-Librarian
 ```
 
 Restart ComfyUI and refresh your comfy browser tab if already running.
@@ -33,3 +33,6 @@ Larger is better if jumping around lots of models.
 
 Then use ComfyUI normally. No extra nodes needed. (this is integrated
 with the standard native file loader).
+
+The Librarian configuration menu is available in the main ComfyUI menu
+if the configuration does not automatically pop up.
